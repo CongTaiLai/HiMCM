@@ -15,11 +15,7 @@ new_data_point = np.array([[2.5, 3.5]])
 predicted_class = lda.predict(new_data_point)
 
 # 输出预测结果
-# if predicted_class == 0:
-#     print("新数据点属于类别 0")
-# else:
-#     print("新数据点属于类别 1")
-
-def foo():
-    pass
-foo()
+if predicted_class == 0:
+    print("新数据点属于类别 0")
+else:
+    print("新数据点属于类别 1")
